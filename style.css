@@ -83,7 +83,7 @@ a {
     margin-top: 12px;
 }
 
-.img {
+.hero .img {
     background-color: #6d747d;
     color: white;
     display: flex;
@@ -96,7 +96,40 @@ a {
 .section-2 {
     background-color: white;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
 }
+
+.card-container {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+}
+
+.section-2 h1 {
+    margin: 50px 0 ;
+    color: #1F2937;
+}
+
+.card p {
+    margin-top: 8px;
+    color: #606265;
+}
+
+.card .img {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+
 
 .section-3 {
     background-color: #E5E7EB;
